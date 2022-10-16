@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "name": "compras do mes",
+      "budget": "15004",
+      "category": {
+        "id": "2",
+        "name": "Planejamentos"
+      },
+      "cost": null,
+      "services": [],
+      "id": 39
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Planejamentos"
+    },
+    {
+      "id": 3,
+      "name": "Disign"
+    },
+    {
+      "id": 4,
+      "name": "Desenvovimento"
+    }
+  ]
+}
