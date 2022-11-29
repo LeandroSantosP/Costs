@@ -10,6 +10,24 @@
       "cost": null,
       "services": [],
       "id": 39
+    },
+    {
+      "name": "Um novo projeto",
+      "budget": "2000",
+      "category": {
+        "id": "2",
+        "name": "Planejamentos"
+      },
+      "cost": null,
+      "services": [
+        {
+          "name": "test",
+          "cost": "500",
+          "description": "um service",
+          "id": "c4061a70-7d24-460e-93be-6b7e29bfb370"
+        }
+      ],
+      "id": 40
     }
   ],
   "categories": [

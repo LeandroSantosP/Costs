@@ -30,6 +30,7 @@ function Project() {
             .then(resp => resp.json())
             .then((data) => {
                 setProject(data)
+
                 setServices(data.services)
             })
             .catch(err => console.log(err))
@@ -55,6 +56,7 @@ function Project() {
         .then(resp => resp.json())
         .then((data) => {
             setProject(data)
+            console.log(data)
             setShowProjectForm(false)
             setMessage(`Projeto atualizado!`)
             setType('success')
